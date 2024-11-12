@@ -29,6 +29,9 @@
     height: 100px;
 
 }
+body{
+    font-family: "Rubik" , sans-serif;
+}
 .nav1{
     /* border: 1px solid green; */
     display: flex;
