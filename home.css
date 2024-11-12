@@ -1,0 +1,297 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    /* border: 1px solid blue; */
+    padding: 0 80px;
+    background-color: aqua;
+    position: fixed;
+    /* top: 20px; */
+    position: sticky;
+
+}
+ul{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+    /* border: 1px solid red; */
+    margin: 0px 15px;
+} 
+.nav-link{
+    font-size: 18px;
+    color: black;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(69, 231, 69);
+    color: white;
+}
+.logo{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* HERO SECTION STYLES */
+.hero-section{
+    /* height: 100vh; */
+    height: calc(100vh - 60px);
+   /* border: 1px solid red; */
+   padding: 0 80px;
+   background-color: aliceblue;
+   display: flex;
+}
+.left-hero-section{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   height: inherit;
+    /* border: 1px solid purple; */
+
+}
+.right-hero-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-text{
+    font-size: 60px;
+}
+.hero-text > span{
+    color: green;
+}
+.hero-content{
+    margin: 15px 0;
+    color:rgb(29, 26, 26);
+}
+.hero-btn{
+    border: 1px solid;
+    background-color: green;
+    width: 200px;
+    height: 45px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.clients{
+    text-align: center;
+    margin: 15px;
+}
+.sectiondown{
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: space-around;
+}
+.Community{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.card{
+    text-align: center;
+    box-shadow: 0px 4px 8px rgb(216, 213, 213);
+    border-radius: 8px;
+    margin: 15px;
+}
+.unseen{
+    display: flex; 
+    align-items: center;
+    /* border: 1px solid red; */
+    justify-content:space-evenly;
+    
+}
+
+.left {
+
+}
+
+.right {
+/* border: 1px solid  blue; */
+align-items: center;
+}
+
+.learn {
+    /* border: 1px solid red; */
+    width: 100px;
+   background-color: green;
+   color: white;
+   justify-content: space-between;
+   cursor: pointer;
+}
+.span{
+    color: green;
+}
+/* .seen{
+    border: 1px solid red;
+    display: flex;
+    background-color: aliceblue;
+}
+.seen1{
+    border: 1px solid brown;
+    display: flex;
+}
+.seenmiddle{
+    border: 1px solid green;
+    justify-content: space-between;
+} */
+ .design{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+ }
+ .design2{
+    /* border: 1px solid blue; */
+    align-items: center;
+   
+ }
+ .tesla{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    
+ }
+ .bottom-nav{
+    /* border: 1px solid blue; */
+    margin: 15px 0;
+   display: flex;
+   justify-content: space-between;
+ }
+ .green{
+    /* border: 1px solid red; */
+    color: green;
+    display: flex;
+    margin: 15px 0;   
+ }
+ .greenp{
+    /* border: 1px solid red; */
+    color: gray;
+ }
+ .tesla-link{
+    color: green;
+    font-size: large;
+    font-weight: 530;
+ }
+ .marketing{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .sub{
+    /* border: 1px solid red; */
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    box-shadow: 0px 0px 2px ;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: relative;
+    top:-70px;
+    left: 30px;
+ }
+
+ .sub-text{
+    margin-top: 50px;
+ }
+ 
+ .ref{
+    color: green;
+    /* border: 1px solid green; */
+    height: 44px;
+ }
+
+
+ .van{
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    background-color: aliceblue;
+    
+ }
+ .vanref{
+    margin-top: 300px;
+    /* border: 1px solid blue; */
+    background-color: rgb(29, 119, 29); 
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ /* .footer{} */
+ .footer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(25, 24, 24);
+    color: white;
+ }
+ .middle-footer{
+    /* border: 1px solid green; */
+    
+    
+ }
+ .arrange-column{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    list-style: none;
+  
+ }
+ .button{
+    color: white;
+   
+ }
+
+ .local{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    /* border: 1px solid red; */
+    background-color: aliceblue;
+    height: 260px;;
+    
+ }
+ .greener{
+    color: green;
+ }
+ 
+
+  
+  .OMEGA{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .A{
+    display: flex;
+    margin: 25px;
+  }
+  .b{
+    display: flex;
+    flex-direction: column;
+  }
